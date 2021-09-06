@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import BaiTap from "./TailwindComponent/BaiTap";
+import DemoGrid from "./TailwindComponent/DemoGrid";
+import FlexDemo from "./TailwindComponent/FlexDemo";
+import PaddingMarginDemo from "./TailwindComponent/PaddingMarginDemo";
+import WidthHeightDemo from "./TailwindComponent/WidthHeightDemo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <DemoGrid /> */}
+      {/* <PaddingMarginDemo /> */}
+      {/* <WidthHeightDemo /> */}
+      {/* <FlexDemo /> */}
+      <BaiTap />
     </div>
   );
 }
